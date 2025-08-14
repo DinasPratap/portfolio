@@ -38,9 +38,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              <h2>Blockchain Developer</h2>
+              <h2>Expert Blockchain Developer</h2>
               <h2 className="text-accent">&</h2>
-              <h2>Financial Market Trader</h2>
+              <h2>Professional Crypto Trader</h2>
             </motion.div>
 
             <motion.p
@@ -49,9 +49,26 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              Web3 developer and financial market trader with 4+ years of experience in crypto and forex. 
-              Specializing in secure smart contract development, DeFi/DeSci ecosystems, and decentralized governance systems.
+              Professional Web3 developer and certified financial market trader with 4+ years of proven experience in 
+              cryptocurrency markets and forex trading. Specializing in secure smart contract development using Solidity and Motoko, 
+              DeFi/DeSci protocol development, NFT creation, and decentralized governance systems. Expert in blockchain security, 
+              risk management, and algorithmic trading strategies.
             </motion.p>
+
+            {/* SEO-friendly keyword section */}
+            <motion.div
+              className="hero-keywords"
+              style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0 }}
+            >
+              <p>
+                Dinas blockchain developer crypto trader Web3 expert DeFi developer smart contract Solidity Motoko 
+                cryptocurrency expert prop-firm trader blockchain consultant NFT developer DApp development 
+                financial markets trading forex trading algorithmic trading blockchain security decentralized finance 
+                Web3 portfolio crypto portfolio trading strategies risk management technical analysis
+              </p>
+            </motion.div>
 
             <motion.div
               className="hero-cta"
@@ -59,12 +76,12 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              <a href="#contact" className="btn btn-primary">
+              <a href="#contact" className="btn btn-primary" aria-label="Contact Dinas for blockchain development projects">
                 <Mail size={20} />
-                Get In Touch
+                Hire for Blockchain Projects
               </a>
-              <a href="#projects" className="btn btn-secondary">
-                View Work
+              <a href="#projects" className="btn btn-secondary" aria-label="View Dinas's blockchain and crypto trading projects">
+                View Portfolio
               </a>
             </motion.div>
 
@@ -74,13 +91,32 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.8 }}
             >
-              <a href="https://github.com/RadicalUser" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a 
+                href="https://github.com/RadicalUser" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="social-link"
+                aria-label="Visit Dinas Pratap Singh's GitHub profile"
+                title="GitHub - Blockchain Projects"
+              >
                 <Github size={24} />
               </a>
-              <a href="mailto:dinaspratap5629@gmail.com" className="social-link">
+              <a 
+                href="mailto:dinaspratap5629@gmail.com" 
+                className="social-link"
+                aria-label="Contact Dinas via email"
+                title="Email - Business Inquiries"
+              >
                 <Mail size={24} />
               </a>
-              <a href="https://t.me/DinasPratap" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a 
+                href="https://t.me/DinasPratap" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="social-link"
+                aria-label="Message Dinas on Telegram"
+                title="Telegram - Quick Contact"
+              >
                 <Send size={24} />
               </a>
             </motion.div>

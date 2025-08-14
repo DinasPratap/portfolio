@@ -55,27 +55,32 @@ const About = () => {
             viewport={{ once: true }}
           >
             <motion.div className="about-card" variants={itemVariants}>
-              <h3>Who I Am</h3>
+              <h3>Who is Dinas Pratap Singh</h3>
               <p>
-                I'm a driven Web3 developer and financial market trader. With over 4 years of hands-on experience 
-                in cryptocurrency and forex markets, I've developed a unique blend of technical expertise and financial acumen.
+                I'm Dinas Pratap Singh, a dedicated Web3 blockchain developer and professional cryptocurrency trader 
+                based in India. With over 4 years of hands-on experience in cryptocurrency markets, forex trading, 
+                and blockchain development, I've established myself as a trusted expert in the decentralized finance (DeFi) 
+                ecosystem. My expertise spans smart contract development, crypto trading strategies, and blockchain security consulting.
               </p>
             </motion.div>
 
             <motion.div className="about-card" variants={itemVariants}>
-              <h3>What I Do</h3>
+              <h3>Blockchain Development Expertise</h3>
               <p>
-                I specialize in secure smart contract development using Solidity and Motoko, with proven contributions to 
-                DeFi/DeSci token launches and community ecosystems. 
+                As a professional blockchain developer, I specialize in secure smart contract development using Solidity 
+                and Motoko programming languages. My proven contributions include DeFi/DeSci token launches, NFT marketplace 
+                development, decentralized autonomous organization (DAO) systems, and community-driven blockchain ecosystems. 
+                I focus on building scalable, secure, and user-centric decentralized applications (DApps).
               </p>
             </motion.div>
 
             <motion.div className="about-card" variants={itemVariants}>
-              <h3>My Approach</h3>
+              <h3>Cryptocurrency Trading & Financial Markets</h3>
               <p>
-                I believe in combining rigorous technical development with real-world financial market experience. 
-                As a prop-firm certified trader, I understand the importance of risk management, scalability, and 
-                user-centric design in building robust decentralized systems.
+                As a prop-firm certified forex trader and experienced cryptocurrency trader, I combine rigorous technical 
+                development skills with real-world financial market expertise. My approach integrates blockchain technology 
+                with advanced trading strategies, risk management frameworks, and algorithmic trading systems. This unique 
+                combination allows me to build robust decentralized financial systems that understand market dynamics.
               </p>
             </motion.div>
 

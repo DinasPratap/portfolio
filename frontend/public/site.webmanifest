@@ -1,29 +1,97 @@
 {
-  "name": "Dinas Pratap Singh - Blockchain Developer",
+  "name": "Dinas Pratap Singh - Award-winning Blockchain Developer & WCHL 2025 Winner",
   "short_name": "Dinas Portfolio",
-  "description": "Professional portfolio of Dinas Pratap Singh - Expert blockchain developer and cryptocurrency trader",
+  "description": "Professional portfolio of Dinas Pratap Singh - Award-winning blockchain developer and cryptocurrency trader. WCHL 2025 Global Hackathon winner specializing in DeFi protocols, smart contracts, DAO development, and Web3 applications.",
   "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
-  "theme_color": "#00ff88",
-  "background_color": "#0a0a0a",
+  "theme_color": "#667eea",
+  "background_color": "#0f0f23",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "start_url": "/",
   "scope": "/",
   "lang": "en-US",
+  "dir": "ltr",
   "categories": [
-    "business",
-    "productivity",
-    "utilities"
-  ]
+    "portfolio",
+    "blockchain",
+    "cryptocurrency", 
+    "developer",
+    "fintech",
+    "web3",
+    "defi",
+    "trading"
+  ],
+  "shortcuts": [
+    {
+      "name": "About & Achievements",
+      "short_name": "About",
+      "description": "Learn about WCHL 2025 winner Dinas Pratap Singh's background and achievements",
+      "url": "/#about",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Award-winning Projects",
+      "short_name": "Projects",
+      "description": "View award-winning blockchain projects including Reputation DAO and Guardient",
+      "url": "/#projects",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Blockchain Skills",
+      "short_name": "Skills", 
+      "description": "Explore expertise in Solidity, DeFi, smart contracts, and Web3 development",
+      "url": "/#skills",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact for Projects",
+      "short_name": "Contact",
+      "description": "Get in touch for blockchain development and cryptocurrency trading projects",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }

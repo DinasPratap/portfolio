@@ -1,18 +1,76 @@
+# Robots.txt for Dinas Pratap Singh Portfolio - Professional Blockchain Developer
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /images/
 
-# Sitemap location
-Sitemap: https://dinaspratapsingh.dev/sitemap.xml
-
-# Crawl-delay for all bots
-Crawl-delay: 1
-
-# Block access to unnecessary files
+# Block access to development and config files
 Disallow: /src/
 Disallow: /*.map$
 Disallow: /node_modules/
 Disallow: /.git/
 Disallow: /.env
+Disallow: /package.json
+Disallow: /vite.config.js
+Disallow: /eslint.config.js
+Disallow: /*.log
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap locations for better indexing
+Sitemap: https://dinaspratapsingh.dev/sitemap.xml
+
+# Specific bot configurations
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+Request-rate: 1/1s
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Social media and preview crawlers
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+# SEO and analytics tools
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 3
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
 Disallow: /package.json
 Disallow: /vite.config.js
 

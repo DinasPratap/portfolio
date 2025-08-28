@@ -8,7 +8,7 @@ const About = () => {
     { label: 'Years Experience', value: '4+', icon: Calendar },
     { label: 'Projects Completed', value: '50+', icon: Award },
     { label: 'Technologies', value: '15+', icon: GraduationCap },
-    { label: 'Certifications', value: '3', icon: Award }
+    { label: 'Awards Won', value: '4', icon: Award }
   ];
 
   const containerVariants = {
@@ -137,6 +137,15 @@ const About = () => {
         >
           <h3>Recent Achievements</h3>
           <div className="achievement-grid">
+            <div className="achievement-card">
+              <div className="achievement-icon">🥇</div>
+              <div className="achievement-content">
+                <h4>1st Place Winner</h4>
+                <p>WCHL 2025 Global Hackathon (India Funnel)</p>
+                <span>Reputation DAO - Decentralized governance system</span>
+              </div>
+            </div>
+
             <div className="achievement-card">
               <div className="achievement-icon">🏆</div>
               <div className="achievement-content">

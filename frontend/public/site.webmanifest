@@ -4,19 +4,19 @@
   "description": "Professional portfolio of Dinas Pratap Singh - Award-winning blockchain developer and cryptocurrency trader. WCHL 2025 Global Hackathon winner specializing in DeFi protocols, smart contracts, DAO development, and Web3 applications.",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "/webLogo.png",
       "sizes": "any",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "/webLogo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "/webLogo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

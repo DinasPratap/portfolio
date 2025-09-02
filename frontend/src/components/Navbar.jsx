@@ -22,7 +22,7 @@ const Navbar = () => {
     { icon: FileText, href: '#about', label: 'About' },
     { icon: FolderOpen, href: '#projects', label: 'Projects' },
     { icon: Briefcase, href: '#experience', label: 'Experience' },
-    { icon: Github, href: 'https://github.com/RadicalUser', label: 'GitHub', external: true },
+    { icon: Github, href: 'https://github.com/DinasPratap', label: 'GitHub', external: true },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/dinas-pratap-singh-chhatwal-0b0ba5342/', label: 'LinkedIn', external: true },
     { icon: X, href: 'https://twitter.com/blitzonsarms', label: 'X (Twitter)', external: true }
   ];

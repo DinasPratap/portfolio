@@ -140,7 +140,7 @@ const About = () => {
             <div className="achievement-card">
               <div className="achievement-icon">🥇</div>
               <div className="achievement-content">
-                <h4>1st Place Winner</h4>
+                <h4>1st Place Winner - $2,000 Prize</h4>
                 <p>WCHL 2025 Global Hackathon (India Funnel)</p>
                 <span>Reputation DAO - Decentralized governance system</span>
               </div>

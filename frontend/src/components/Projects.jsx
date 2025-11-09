@@ -39,8 +39,8 @@ const Projects = () => {
         'Reputation scoring',
         'Trustless coordination'
       ],
-      award: '1st Place - WCHL 2025 Global Hackathon',
-      teamSize: 'Solo project',
+      award: '1st Place - WCHL 2025 Global Hackathon(India Funnel)',
+      teamSize: '2 members',
       duration: 'Completed',
       links: {
         github: 'https://github.com/Reputation-DAO/Reputation-DAO',

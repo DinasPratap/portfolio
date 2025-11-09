@@ -174,10 +174,25 @@
   margin-bottom: 0.75rem;
 }
 
+.company-link {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.company-link:hover {
+  transform: translateX(5px);
+}
+
+.company-link:hover .company {
+  color: var(--primary);
+}
+
 .company {
   color: var(--accent);
   font-weight: 600;
   font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 .type {

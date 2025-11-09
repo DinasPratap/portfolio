@@ -6,6 +6,26 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
+      title: 'Founder & CEO',
+      company: 'Reputation DAO',
+      type: 'Full-time',
+      location: 'Remote',
+      period: 'July 2025 - Present',
+      duration: '4+ months',
+      description: 'Founded and leading Reputation DAO, a decentralized governance platform that won 1st place at WCHL 2025 Global Hackathon. Building identity-weighted voting systems and decentralized governance infrastructure.',
+      achievements: [
+        'Won 1st place and $2,000 prize at WCHL 2025 Global Hackathon (India Funnel)',
+        'Designed and implemented identity-weighted voting mechanism',
+        'Building decentralized governance systems for Web3 communities',
+        'Leading product development and strategic partnerships'
+      ],
+      skills: ['DAO Development', 'Governance Systems', 'Leadership', 'Web3', 'Product Strategy'],
+      icon: Users,
+      color: '#667eea',
+      current: true,
+      website: 'https://reputationdao.com'
+    },
+    {
       title: 'Trader & Portfolio Manager',
       company: 'Self-Employed',
       type: 'Full-time',
@@ -162,7 +182,13 @@ const Experience = () => {
                           {exp.current && <span className="current-badge">Current</span>}
                         </div>
                         <div className="experience-company">
-                          <span className="company">{exp.company}</span>
+                          {exp.website ? (
+                            <a href={exp.website} target="_blank" rel="noopener noreferrer" className="company-link">
+                              <span className="company">{exp.company}</span>
+                            </a>
+                          ) : (
+                            <span className="company">{exp.company}</span>
+                          )}
                           <span className="type">{exp.type}</span>
                         </div>
                         <div className="experience-meta">

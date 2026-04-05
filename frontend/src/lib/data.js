@@ -1,119 +1,159 @@
 export const personalInfo = {
   name: "Dinas Pratap Singh",
-  title: "Blockchain Developer & Crypto Trader",
-  tagline: "Building the future of decentralized finance",
-  bio: "Full-stack developer specializing in blockchain technology, smart contracts, and decentralized applications. Passionate about Web3, DeFi protocols, and crypto trading strategies.",
-  email: "contact@dinaspratapsingh.com",
-  location: "India",
+  displayName: "DINAS PRATAP SINGH",
+  roles: [
+    "Blockchain Developer",
+    "Crypto Trader",
+    "Founder",
+    "Systems Thinker",
+    "Validator Operator",
+  ],
+  tagline: "Building onchain. Trading live markets. Thapar '28.",
+  bio: "I've been in crypto since 2020. I trade live markets, build onchain protocols, and co-founded a DAO reputation system that made WCHL Top 30 globally. I'm a 2nd-year CE student who doesn't think like one.",
+  email: "dinaspratap5629@gmail.com",
+  university: "Thapar University, Computer Engineering (Class of 2028)",
 };
+
+export const stats = [
+  { label: "Years Trading", value: 4, suffix: "+" },
+  { label: "Global @ WCHL", value: 30, prefix: "Top " },
+  { label: "Hackathon Awards", value: 2 },
+  { label: "Prop Firm", value: 0, displayText: "Passed" },
+];
 
 export const projects = [
   {
-    name: "DeFi Yield Aggregator",
+    name: "Reputation DAO",
     description:
-      "A decentralized yield aggregator that automatically finds and allocates funds to the highest-yielding DeFi protocols across multiple chains.",
-    tags: ["Solidity", "React", "Web3.js", "DeFi"],
-    badge: "DeFi",
-    badgeEmoji: "💰",
-    cluster: "blockchain",
+      "Tamperproof on-chain reputation protocol for DAOs. ICP canisters + GitHub oracle + soulbound reputation scores.",
+    tags: ["ICP", "Soulbound NFT", "DAO", "GitHub Oracle"],
+    badge: "WCHL Top 30 Global",
+    badgeEmoji: "🏆",
+    cluster: "Protocol & Security",
   },
   {
-    name: "NFT Marketplace",
+    name: "Guardient",
     description:
-      "A full-featured NFT marketplace with minting, listing, auction, and royalty support built on Ethereum and Solana.",
-    tags: ["Next.js", "Solidity", "IPFS", "Ethers.js"],
-    badge: "NFT",
-    badgeEmoji: "🎨",
-    cluster: "blockchain",
+      "Real-time wallet protection system that monitors and intercepts malicious transactions before they execute.",
+    tags: ["Web3 Security", "Real-Time Monitoring", "Wallet Protection"],
+    badge: "Most Innovative — Hackspire 2025",
+    badgeEmoji: "🥇",
+    cluster: "Protocol & Security",
   },
   {
-    name: "Crypto Trading Bot",
+    name: "Solana Mini Validator",
     description:
-      "An automated trading bot that uses technical analysis and machine learning to execute trades across major cryptocurrency exchanges.",
-    tags: ["Python", "TensorFlow", "REST API", "WebSocket"],
-    badge: "Trading",
-    badgeEmoji: "📈",
-    cluster: "trading",
-  },
-  {
-    name: "Cross-Chain Bridge",
-    description:
-      "A trustless cross-chain bridge enabling seamless token transfers between Ethereum, Solana, and Polygon networks.",
-    tags: ["Rust", "Solidity", "React", "Node.js"],
+      "Built a functioning Solana validator node from scratch. Covers consensus participation, stake delegation, vote accounts, and validator economics.",
+    tags: ["Solana", "Validator", "Infrastructure", "Low-Level"],
     badge: "Infrastructure",
-    badgeEmoji: "🌉",
-    cluster: "blockchain",
+    badgeEmoji: "⚙️",
+    cluster: "Solana Ecosystem",
+    isSolana: true,
   },
   {
-    name: "DAO Governance Platform",
+    name: "Solana NFT Marketplace Backend",
     description:
-      "A governance platform for DAOs featuring proposal creation, voting, delegation, and on-chain execution of decisions.",
-    tags: ["TypeScript", "Solidity", "The Graph", "React"],
-    badge: "Governance",
-    badgeEmoji: "🏛️",
-    cluster: "blockchain",
+      "Fully functional NFT marketplace backend on Solana. Handles listings, offers, escrow logic, and settlement via on-chain Anchor programs.",
+    tags: ["Solana", "Anchor", "NFT", "Escrow", "On-Chain"],
+    badge: "Solana Ecosystem",
+    badgeEmoji: "🔗",
+    cluster: "Solana Ecosystem",
+    isSolana: true,
   },
   {
-    name: "Portfolio Analytics Dashboard",
+    name: "Polymarket Trading Bot",
     description:
-      "Real-time portfolio tracking dashboard with advanced analytics, PnL calculations, and risk assessment for crypto assets.",
-    tags: ["Next.js", "D3.js", "Node.js", "PostgreSQL"],
-    badge: "Analytics",
-    badgeEmoji: "📊",
-    cluster: "trading",
+      "Live prediction market bot written in Rust/Java, deployed on DigitalOcean VPS. Uses matched-pair arbitrage, risk management logic, and real-time order execution.",
+    tags: ["Rust", "Java", "Prediction Markets", "Arbitrage", "VPS"],
+    badge: "Live in Production",
+    badgeEmoji: "🤖",
+    cluster: "Live Systems",
+  },
+  {
+    name: "DeFi/DeSci Protocol Work",
+    description:
+      "Marketing Manager + Tokenomics Designer across multiple DeFi and DeSci protocols. Designed emission schedules, incentive structures, and go-to-market strategies.",
+    tags: ["Tokenomics", "DeFi", "DeSci", "Strategy"],
+    badge: "Protocol Design",
+    badgeEmoji: "📐",
+    cluster: "Strategy",
   },
 ];
 
 export const skills = {
-  blockchain: [
+  Blockchain: [
     "Solidity",
-    "Rust",
-    "Ethereum",
-    "Solana",
-    "Smart Contracts",
-    "DeFi",
+    "ICP Canisters",
+    "Anchor (Solana)",
     "Web3.js",
     "Ethers.js",
   ],
-  frontend: [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "JavaScript",
-    "Tailwind CSS",
-    "Framer Motion",
+  Languages: ["Rust", "Java", "JavaScript", "Python", "C++"],
+  Frontend: ["React", "Next.js", "HTML/CSS"],
+  "Trading & Finance": [
+    "Prop Trading",
+    "DeFi Market-Making",
+    "Polymarket Bots",
   ],
-  backend: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
-  tools: ["Git", "Docker", "AWS", "Vercel", "Hardhat", "Foundry", "The Graph"],
+  Infrastructure: [
+    "Solana Validator",
+    "VPS Deployment",
+    "Linux",
+    "DigitalOcean",
+  ],
+  Tools: ["Git", "DigitalOcean", "DigitalOcean VPS"],
 };
 
 export const experience = [
   {
-    role: "Blockchain Developer",
-    company: "Web3 Startup",
-    period: "2023 - Present",
+    role: "Co-Founder & CEO",
+    company: "Reputation DAO",
+    period: "2024 – Present",
     description:
-      "Leading smart contract development and DeFi protocol design. Building cross-chain solutions and decentralized applications.",
+      "Building a tamperproof on-chain reputation protocol for DAOs. WCHL 2025 Top 30 Global Finalist.",
   },
   {
-    role: "Full-Stack Developer",
-    company: "Tech Company",
-    period: "2021 - 2023",
-    description:
-      "Developed scalable web applications using React, Node.js, and cloud services. Led frontend architecture decisions.",
-  },
-  {
-    role: "Crypto Trader & Analyst",
+    role: "Prop Firm Trader",
     company: "Independent",
-    period: "2020 - Present",
+    period: "2023 – Present",
     description:
-      "Actively trading cryptocurrencies using technical analysis and algorithmic strategies. Building custom trading tools and bots.",
+      "Passed evaluation, actively trading live markets across crypto and forex.",
+  },
+  {
+    role: "Marketing Manager & Tokenomics Designer",
+    company: "DeFi/DeSci Protocols",
+    period: "2022 – 2024",
+    description:
+      "Designed emission schedules, incentive structures, and go-to-market strategies for multiple protocols.",
+  },
+  {
+    role: "OWASP Club Member",
+    company: "Thapar University",
+    period: "2024 – Present",
+    description: "Organized CTF events and security workshops.",
   },
 ];
 
 export const socialLinks = [
-  { name: "GitHub", url: "https://github.com/RadicalUser", icon: "github" },
-  { name: "Twitter", url: "https://twitter.com/", icon: "twitter" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/", icon: "linkedin" },
-  { name: "Email", url: "mailto:contact@dinaspratapsingh.com", icon: "mail" },
+  { name: "GitHub", url: "#", icon: "github" },
+  { name: "Twitter", url: "#", icon: "twitter" },
+  { name: "LinkedIn", url: "#", icon: "linkedin" },
+];
+
+export const marqueeItems = [
+  "Solana",
+  "ICP",
+  "Rust",
+  "DeFi",
+  "Anchor",
+  "Web3",
+  "Polymarket",
+  "Validator",
+  "Tokenomics",
+  "Smart Contracts",
+  "Solidity",
+  "Trading",
+  "DAO",
+  "NFT",
+  "Infrastructure",
 ];
